@@ -1,0 +1,22 @@
+server:
+  port: 18080
+  # debug | release | test 运行环境
+  level: debug
+
+datasource:
+  host: xxx
+  port: 3306
+  username: root
+  password: xxx
+  db_name: short-service
+  config: charset=utf8mb4&parseTime=True&loc=Local
+
+log:
+  level: debug
+  filepath: ./hmall/logger/systemLog.txt
+
+redis:
+  host: xxx
+  port: 6379
+  password: xxx
+  data_base: 0
